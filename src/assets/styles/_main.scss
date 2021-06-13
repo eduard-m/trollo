@@ -1,0 +1,41 @@
+@import './vars';
+@import './general';
+
+@import './components/header';
+@import './components/animations';
+
+@import './pages/home';
+@import './pages/board';
+@import './pages/login';
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    color: #000;
+}
+
+#app {
+    min-height: 100vh;
+    background-color: $bg-color;
+}
+
+.view {
+    padding: 1rem 2rem;
+    height: auto;
+}
+
+.login {
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+}
